@@ -162,7 +162,7 @@ def even_better_draw_circles(rad, numcirc, center, runtime):
     for k in range(numcirc + 1):
         circle = rg.Circle(center, rad * k)
         circle.attach_to(window)
-        window.render(runtime)  # Pauses for 0.05 seconds after rendering.
+        window.render(runtime)
 
     window.close_on_mouse_click()
 
