@@ -959,7 +959,7 @@ class Circle(_ShapeWithCenter, _ShapeWithOutline):
        circle.center = rg.Point(x - 50, y + 60)
     """
 
-    def __init__(self, center, radius):
+    def __init__(self, center: object, radius: object) -> object:
         """
           :type  center:  rg.Point
           :type  radius:  int
